@@ -1,0 +1,151 @@
+/* body style ---------------------------------------------*/
+body {
+  width: 800px;
+  margin: auto;
+  background-color: lightgoldenrodyellow;
+  font-family: "Raleway", sans-serif;
+  background-image: url(img/bush.png);
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Header and footer bar Style ----------------------------------------- */
+
+header {
+  display: block;
+  width: auto;
+  height: 60px;
+  background-color: black;
+}
+
+/* image style ---------------------------------------------*/
+img {
+  width: 800px;
+}
+
+/* class ---------------------------------------------------*/
+.background {
+  background-color: whitesmoke;
+  min-height: 2500px;
+  margin-top: -40px;
+}
+
+.ulLeft {
+  width: 45%;
+  margin-left: 30px;
+  float: left;
+}
+.asideRight {
+  width: 40%;
+  float: right;
+}
+
+/* food image hover ---------------------------------------------*/
+
+.foodimgContainer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.foodimgText {
+  line-height: 290px;
+  height: 290px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.foodimgOverlay {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.foodimgAppear {
+  display: block;
+  border-radius: 20px;
+  width: 300px;
+  height: auto;
+}
+
+.foodimgContainer:hover .foodimgOverlay {
+  opacity: 1;
+}
+
+/* heading style ---------------------------------------------*/
+h1 {
+  font-size: 50px;
+  padding: 10px 30px 10px 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 40px 30px 5px 30px;
+}
+
+/* p style ---------------------------------------------------*/
+
+main p {
+  line-height: 30px;
+  padding: 0 30px;
+}
+
+main > p::first-letter,
+li::first-letter {
+  font-size: 35px;
+  font-weight: bolder;
+  color: rgb(66, 13, 13);
+}
+
+/* list style -----------------------------------------------*/
+ul > li {
+  padding: 0px 0px 30px 0px;
+  line-height: 30px;
+}
+
+/* footer style ---------------------------------------------*/
+footer {
+  background-color: whitesmoke;
+  text-align: center;
+  height: 140px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+
+.backtotop {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: rgb(7, 193, 240);
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.footerbar {
+  line-height: 30px;
+  width: auto;
+  height: 30px;
+  background-color: black;
+  vertical-align: middle;
+  color: white;
+}
+
+/* link style ---------------------------------------------- */
+a:link,
+a:visited,
+a.active {
+  color: white;
+}
+a:hover {
+  color: red;
+}
